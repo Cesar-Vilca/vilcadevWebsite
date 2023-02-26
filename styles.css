@@ -126,7 +126,7 @@ header.sticky{
 
 /* Style Section-Home*/
 
-.section.home{
+.section-home{
     height: 100vh;
     display: flex;
     overflow: hidden;
@@ -1045,7 +1045,7 @@ h1{
 /* Style Section-Skills */
 
 .container-skills{
-  height: 60vh;
+  
   display:flex;
   flex-wrap: wrap;
   
@@ -1102,7 +1102,115 @@ h1{
     width: 250px;
   }
 }
+/* Style Section-Portfolio */
 
+@media (max-width:824px) {
+  #section-portfolio{
+    top: 50px;
+  }
+}
+/* Style Section-skills */
+/* nota aparte borra esto despues si quieres:https://desktop.github.com/images/star-bg.svg */
+/* Otra nota Adobe express god: para el slider img ancho y largi editable y pnt transparente */
+
+.section-full-skills{
+  min-height: 150vh;
+  padding: 9rem 6rem;
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.contenedor-frontend{
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 35rem;
+  top:3rem;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 9rem 11.3rem;
+  padding-bottom: 3rem;
+  
+
+}
+#slider-frontend{
+  width:100%;
+  height: 203px;
+  background-image: url(imgs/slider-img-fronted.png);
+  justify-content: center;
+  align-items: center;
+  animation: slider-frontend 4s infinite linear;
+  
+}
+
+.contenedor-backend{
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 35rem;
+  top:3rem;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 150%);
+  overflow-y: auto;
+  padding: 0rem 11.3rem;
+  padding-bottom: 3rem;
+}
+#slider-backend{
+  width:100%;
+  height: 203px;
+  background-image: url(imgs/slider-img-backend.png);
+  justify-content: center;
+  align-items: center;
+  animation: slider-backend 4s infinite linear;
+  
+  
+}
+@keyframes slider-frontend{
+  to{
+    background-position: 699px;
+
+  }
+
+}
+@keyframes slider-backend{
+  to{
+    background-position: 780px;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@keyframes scroll{
+  0%{
+    -webkit-transform:translateX(0);
+    transform:translateX(0);
+    
+  }
+  100%{
+    -webkit-transform:translateX(calc(-200px*7));
+    transform:translateX(calc(-200px*7));
+    
+  }
+}
+@media (max-width:824px) {
+  #section-skills{
+    top: 50px;
+  }
+}
 
   
 
