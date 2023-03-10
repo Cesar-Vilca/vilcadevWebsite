@@ -47,12 +47,14 @@
             </ul>
         </nav>
     </header>
+    
     <script type="text/javascript">
         window.addEventListener("scroll",function(){
             var header = document.querySelector("header");
             header.classList.toggle("sticky",window.scrollY>0);
 
         })
+        
 
     </script>
     
@@ -167,84 +169,109 @@
             <h1 style="font-size: 4.3rem; padding-top: -15%;">About Me</h1>
             <br>            
             <p class="gray-text margin-p-about" style="width:40cqmax;">I am a student of the career in systems engineering, I am currently studying the 6th semester of it. Along with my university studies, I am also specializing in Full Stack web development, since I have a strong focus on developing myself in this technological field. I describe myself as a realistic and competent person who strives to maintain a balance between my academic training and my professional growth.</p>
-            <div id="img-zone-about" class="size-cesar-aside">
-                <!-- <img id="img-luna" src="imgs/luna.png" alt=""> -->
-                <img id=""src="imgs/foto-cesar.jpeg" alt="Image Perfil" class="backg size-cesar" style="border-radius: 0; transform: scale(0.8);">
-            </div>                   
-        </div>                 
+                              
+        </div> 
+        
+            <img id="cesar-photo"src="imgs/foto-cesar.jpeg" alt="Image Perfil" class="" style="border-radius: 0; transform: scale(0.8);">
+                        
     </section>
 
-    <section id="section-portfolio" class="section-full" style="overflow: hidden; display: flex;">
+    <section id="section-portfolio" class="section-full" style="overflow: hidden; ">
+        
         <div id="text-zone">
             <div class="fake-big">Work</div>
-            <h1 style="font-size: 4.3rem; padding-top: -15%;">My Portfolio</h1>
-            <br>            
-            
-            <div class="container-skills gray-text margin-p-about" style="width:40cqmax">
-                <div class="skills">
-                    <h3 style="font-family: Open Sans,monospace;margin-bottom: 10px;">Html</h3>
-                    <div class="bar">
-                        <div class="progress"style="--w:80%">
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <h3 style="font-family: Open Sans,monospace; margin-bottom: 10px;" >Css</h3>
-                    <div class="bar">
-                        <div class="progress"style="--w:70%">
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <h3 style="font-family: Open Sans,monospace;margin-bottom: 10px;">JavaScript</h3>
-                    <div class="bar">
-                        <div class="progress"style="--w:40%">
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <h3 style="font-family: Open Sans,monospace;margin-bottom: 10px;">Python</h3>
-                    <div class="bar">
-                        <div class="progress"style="--w:50%">
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <h3 style="font-family: Open Sans,monospace;margin-bottom: 10px;">SQL Server</h3>
-                    <div class="bar">
-                        <div class="progress"style="--w:70%">
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <h3 style="font-family: Open Sans,monospace;margin-bottom: 10px;">MongoDB</h3>
-                    <div class="bar">
-                        <div class="progress"style="--w:70%">
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <h3 style="font-family: Open Sans,monospace;margin-bottom: 10px;">C#</h3>
-                    <div class="bar">
-                        <div class="progress"style="--w:50%">
-                        </div>
-                    </div>
-                </div>
-                <div class="skills">
-                    <h3 style="font-family: Open Sans,monospace;margin-bottom: 10px;">Unity</h3>
-                    <div class="bar">
-                        <div class="progress"style="--w:10%">
-                        </div>
-                    </div>
-                </div>
+            <h1 style="font-size: 4.3rem; padding-top: -15%;">My Portfolio</h1>                                                         
+        </div>
+        <br>
 
+        <div class="wrapper">
+            <h1 class="section-header">Portfolio</h1>
+            <div class="main-content">
+                <div class="box">
+                    <img src="imgs-portfolio/1.png" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs-portfolio/2.jpg" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Photoshop</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs-portfolio/3.jpg" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>ui/ux design</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="imgs-portfolio/4.jpg" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Photography</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs-portfolio/5.png" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>crafting</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs-portfolio/6.png" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Marketing</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs-portfolio/7.jpg" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Marketing</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs-portfolio/8.jpg" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Marketing</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="imgs-portfolio/8.jpg" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>Marketing</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="img-zone">
-                <!-- <img id="img-luna" src="imgs/luna.png" alt=""> -->
-                <img id=""src="imgs/foto-cesar.jpeg" alt="Image Perfil" class="backg size-cesar" style="border-radius: 0; transform: scale(0.8);">
-                
-            </div>                   
-        </div>                 
+        </div>
+                                   
     </section>
     <section id="section-skills" class="section-full-skills" style="overflow: hidden; display: flex;">
         <div id="text-zone">
@@ -252,9 +279,9 @@
             <h1 style="font-size: 4.3rem; padding-top: -15%;">My Skills</h1>
             <br>  
                                                                                       
-        </div>
+        </div>       
         <div class="contenedor-frontend">
-            <p class="gray-text" style="text-align: center; font-size: 2.6rem; margin-bottom: 25px;">Fronted </p>                
+            <p class="gray-text" style="text-align: center; font-size: 2.6rem; margin-bottom: 25px;">Frontend </p>                
             <div id="slider-frontend">                    
             </div>              
         </div>
