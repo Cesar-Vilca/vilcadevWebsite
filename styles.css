@@ -1224,12 +1224,10 @@ transition: all 0.5s ease-in-out;
   padding-bottom: 3rem;
   flex-direction: column;
   display: flex;
+  
 }
-
-
 .contenedor-frontend{
   width:100%;
-  justify-content: center;
   align-items: center;
   position: relative;
   right: 35rem;
@@ -1239,6 +1237,9 @@ transition: all 0.5s ease-in-out;
   transform: translate(-50%, -50%);
   padding: 9rem 11.3rem;
   padding-bottom: 3rem;
+  display: flex;
+  
+  flex-direction: column;
   
 
 }
@@ -1255,7 +1256,6 @@ transition: all 0.5s ease-in-out;
 
 .contenedor-backend{
   width:100%;
-  justify-content: center;
   align-items: center;
   position: relative;
   right: 35rem;
@@ -1263,10 +1263,11 @@ transition: all 0.5s ease-in-out;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  overflow-y: auto;
   padding: 0rem 11.3rem;
   padding-bottom: 3rem;
-  overflow: hidden;
+ 
+  display: flex;
+  flex-direction: column;
 }
 #slider-backend{
   width:1050px;
